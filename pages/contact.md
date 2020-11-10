@@ -1,11 +1,11 @@
 ---
 layout: contact
-title: Contact
+title: Contato
 permalink: /contact
 section: contact
 intro_paragraph: |-
 
-  Voce possue sugestões para nossa página, dúvidas ou críticas!? 
+  Você possue sugestões para nossa página, dúvidas ou críticas!? 
  
   
 ---
