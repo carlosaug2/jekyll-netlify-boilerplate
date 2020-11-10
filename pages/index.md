@@ -6,5 +6,5 @@ section: home
 intro_paragraph: >
   Ola Leitor, seja bem vinda/o a nossa nova casa, novidades estão a caminho .... aguardem ! =D
   
-  pages and posts, and a continuous deployment workflow.
+  
 ---
