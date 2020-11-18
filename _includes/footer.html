@@ -1,5 +1,10 @@
 <footer>
 
+  
+{% if page.comments == true %}
+  {% include comments.html %}
+{% endif %}
+  
   <small>Este projeto e mantido por <a href="https://www.comvart.pro" rel="noopener">CONVART </a>.  <a href="https://github.com/danurbanowicz/jekyll-netlify-boilerplate" rel="noopener"></a></small>
 
 </footer>
