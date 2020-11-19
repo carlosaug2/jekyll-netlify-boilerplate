@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml.
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://epic-babbage-873e03.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
-movieFormUrl: https://staticman.net/api/v1/entries/5622d244c4bf944a1a3e3001
+
 
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title
