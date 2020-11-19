@@ -85,8 +85,8 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   
- repository  : # carlosaug2/jekyll-netlify-boilerplate e.g. "mmistakes/minimal-mistakes"
+ repository  : "carlosaug2/jekyll-netlify-boilerplate" 
 comments:
-  provider  : "staticman_v2"
+  provider  : "staticman_v3"
   staticman:
     branch    : "master"
