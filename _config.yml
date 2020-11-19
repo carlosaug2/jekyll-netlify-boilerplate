@@ -85,15 +85,8 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   
-  
-  
-  # Staticman
-staticman:
- allowedFields: ['address', 'name', 'title', 'description', 'rating']
- branch: gh-pages
- commitMessage: "Hey human, here is a new entry."
- filename: "entry{@timestamp}"
- format: yml
- moderation: true
- path: "_data/reviews"
- requiredFields: ['name', 'title', 'description', 'rating']
+ repository  : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+comments:
+  provider  : "staticman_v2"
+  staticman:
+    branch    : "master"
