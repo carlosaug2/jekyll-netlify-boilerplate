@@ -10,7 +10,7 @@ layout: default
     <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
       by {{ author.name }}
-  {% raw %}
+  
 
     {% endif %}
   </small>
@@ -26,14 +26,14 @@ layout: default
       <li>
         <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}</a>
       </li>
-   {% raw %}
+   
 
     {% endif %}
     {% if page.next.url %}
       <li>
         <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
       </li>
-    {% raw %}
+    
 
     {% endif %}
   </ul>
