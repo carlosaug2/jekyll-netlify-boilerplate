@@ -85,6 +85,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   
-isso:
-  data_isso: /isso/
-  script_src: /isso/js/embed.min.js
+
