@@ -85,8 +85,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   
- repository  : "carlosaug2/jekyll-netlify-boilerplate" 
-comments:
-  provider  : "staticman_v3"
-  staticman:
-    branch    : "master"
+isso:
+  data_isso: /isso/
+  script_src: /isso/js/embed.min.js
