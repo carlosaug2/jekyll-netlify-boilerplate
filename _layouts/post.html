@@ -11,11 +11,7 @@ layout: default
     {% if author %}
       by {{ author.name }}
   {% raw %}
-{% if site.isso.script_src %}
-  <script data-isso="{{site.isso.data_isso}}" src="{{site.isso.script_src}}"></script>
-  <section id="isso-thread"></section>
-{% endif %}
-{% endraw %}
+
     {% endif %}
   </small>
 </time>
@@ -31,22 +27,14 @@ layout: default
         <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}</a>
       </li>
    {% raw %}
-{% if site.isso.script_src %}
-  <script data-isso="{{site.isso.data_isso}}" src="{{site.isso.script_src}}"></script>
-  <section id="isso-thread"></section>
-{% endif %}
-{% endraw %}
+
     {% endif %}
     {% if page.next.url %}
       <li>
         <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
       </li>
     {% raw %}
-{% if site.isso.script_src %}
-  <script data-isso="{{site.isso.data_isso}}" src="{{site.isso.script_src}}"></script>
-  <section id="isso-thread"></section>
-{% endif %}
-{% endraw %}
+
     {% endif %}
   </ul>
 </nav>
