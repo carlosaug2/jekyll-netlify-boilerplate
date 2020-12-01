@@ -10,9 +10,12 @@ layout: default
     <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
       by {{ author.name }}
-    {% if site.isso.script_src %}
+  {% raw %}
+{% if site.isso.script_src %}
   <script data-isso="{{site.isso.data_isso}}" src="{{site.isso.script_src}}"></script>
   <section id="isso-thread"></section>
+{% endif %}
+{% endraw %}
     {% endif %}
   </small>
 </time>
@@ -27,17 +30,23 @@ layout: default
       <li>
         <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}</a>
       </li>
-    {% if site.isso.script_src %}
+   {% raw %}
+{% if site.isso.script_src %}
   <script data-isso="{{site.isso.data_isso}}" src="{{site.isso.script_src}}"></script>
   <section id="isso-thread"></section>
+{% endif %}
+{% endraw %}
     {% endif %}
     {% if page.next.url %}
       <li>
         <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
       </li>
-    {% if site.isso.script_src %}
+    {% raw %}
+{% if site.isso.script_src %}
   <script data-isso="{{site.isso.data_isso}}" src="{{site.isso.script_src}}"></script>
   <section id="isso-thread"></section>
+{% endif %}
+{% endraw %}
     {% endif %}
   </ul>
 </nav>
